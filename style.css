@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+max-width: 1440px;
+margin: 0 auto;
+}
+.section1{
+    background-image: url(./images/landing\ food.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px;
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav_ul ul{
+    display: flex;
+    gap: 16px;
+}
+.ahref {
+    display: flex;
+    gap: 66px;
+}
+.nav_ul ul li a{
+    color: rgba(0, 0, 0, 1);
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.nav_ul ul li a:hover{
+    text-decoration: underline  rgba(255, 91, 0, 1) 2px;
+}
+.btn{
+    width: 101px;
+height: 38px;
+border-radius: 7px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 100%;
+}
+.orange{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 91, 0, 1);
+    border: none;
+}
+.white{
+    color: rgba(255, 91, 0, 1);
+    border: 2px solid rgba(255, 91, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.red{
+    color: rgba(217, 31, 31, 1);
+}
+.greeting{
+    margin-top: 184px;
+    display: flex;
+    flex-direction: column;
+}
+.lorem{
+    width: 467px;
+height: 72px;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 135%;
+letter-spacing: 0.5%;
+text-align: justify;
+color: rgba(0, 0, 0, 1);
+padding-top: 24px;
+}
+.button{
+    width: 201px;
+height: 53px;
+border-radius: 12px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+line-height: 100%;
+margin: 37px 0px ;
+}
+.inp{
+    width: 440px;
+height: 63px;
+background-color: rgba(255, 255, 255, 0.64);
+color: rgba(0, 0, 0, 0.4);
+border: 2px solid rgba(0, 0, 0, 0.4);
+border-radius: 12px;
+}
+.icons{
+    display: flex;
+    gap: 29px;
+    padding: 20px;
+}
+.section2{
+    margin: 60px 0px;
+}
+.text_menu{
+    display: flex;
+    justify-content: center;
+}
+.menu_t{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 35px;
+line-height: 91%;
+}
+.view_t{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19px;
+line-height: 135%;
+letter-spacing: 0.5%;
+text-align: justify;
+color: rgba(255, 91, 0, 1);
+margin-left: 572px;
+}
+.butt{
+    width: 132px;
+height: 32px;
+border-radius: 7px;
+margin: 5px;
+}
+
+.meal_name{
+color: rgba(255, 255, 255, 1);
+font-weight: 500;
+font-style: Medium;
+font-size: 38px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.meal_price{
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 91, 0, 1);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    width: 256px;
+    height: 352px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blur{
+    background-image: url(./images/blur.png);
+    background-size: cover;
+    width: 256px;
+}
+.cards{
+    display: flex;
+    gap: 80px;
+    padding-right: 219px;
+    padding-top: 20px;
+}
