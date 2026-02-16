@@ -72,7 +72,7 @@ container.insertAdjacentHTML('beforeend',`
       <div class="card" style="background-image: url(${fastFood[0].categories[0].categoriyImage});">
               
                     <p class="meal_name">${fastFood[0].categories[0].categoriyName}</p>
-                    <p class="meal_price">${fastFood[0].categories[0].categoriyPrice}</p>
+                    <p class="meal_price">from${fastFood[0].categories[0].categoriyPrice}$</p>
                     <button class="butt orange">Order now</button>
                 </div>
                 </div>
@@ -82,7 +82,7 @@ container.insertAdjacentHTML('beforeend',`
            <div class="card" style="background-image: url(${fastFood[0].categories[1].categoriyImage});">
                    
                          <p class="meal_name">${fastFood[0].categories[1].categoriyName}</p>
-                         <p class="meal_price">${fastFood[0].categories[1].categoriyPrice}</p>
+                         <p class="meal_price">from${fastFood[0].categories[1].categoriyPrice}$</p>
                          <button class="butt orange">Order now</button>
                      </div>
                      </div>
@@ -92,7 +92,7 @@ container.insertAdjacentHTML('beforeend',`
                <div class="card" style="background-image: url(${fastFood[0].categories[2].categoriyImage});">
                        
                              <p class="meal_name">${fastFood[0].categories[2].categoriyName}</p>
-                             <p class="meal_price">${fastFood[0].categories[2].categoriyPrice}</p>
+                             <p class="meal_price">from${fastFood[0].categories[2].categoriyPrice}$</p>
                              <button class="butt orange">Order now</button>
                          </div>
                          </div>
@@ -102,8 +102,15 @@ container.insertAdjacentHTML('beforeend',`
                    <div class="card" style="background-image: url(${fastFood[0].categories[3].categoriyImage});">
                            
                                  <p class="meal_name">${fastFood[0].categories[3].categoriyName}</p>
-                                 <p class="meal_price">${fastFood[0].categories[3].categoriyPrice}</p>
+                                 <p class="meal_price">from${fastFood[0].categories[3].categoriyPrice}$</p>
                                  <button class="butt orange">Order now</button>
                              </div>
                              </div>
                  `)
+                 let pi = document.querySelector('.menu_sum')
+                 suma=fastFood[0].categories.reduce((sum,current)=>{
+                    return sum+current.categoriyPrice
+                 },0)
+pi.insertAdjacentHTML('beforeend',`
+      <p >Sum of all products <span><p>${suma}</p></span></p> 
+    `)

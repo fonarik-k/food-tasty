@@ -147,6 +147,7 @@ font-size: 15px;
 line-height: 100%;
 letter-spacing: 0%;
 color: rgba(255, 91, 0, 1);
+
 }
 .card{
     display: flex;
@@ -170,4 +171,23 @@ color: rgba(255, 91, 0, 1);
     gap: 80px;
     padding-right: 219px;
     padding-top: 20px;
+}
+.h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.menu_sum{
+    
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 135%;
+letter-spacing: 0.5%;
+text-align: justify;
+display: flex;
+gap: 15px;
+}
+.suman{
+    font-weight: bold;
+   
 }
